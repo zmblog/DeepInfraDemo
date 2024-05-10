@@ -68,6 +68,6 @@ question = "What is the main topic of the document?"  # Example question
 # Send the question to the custom API endpoint
 try:
     response = ask_question_about_document(document_text, question)
-    print(response['choices'][0]['message']['content'])  # Adjust depending on the exact response structure
+    print(response['choices'][0]['message']['content']) 
 except Exception as e:
     print("An error occurred:", e)
